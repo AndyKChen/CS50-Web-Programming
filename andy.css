@@ -1,0 +1,24 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+.pt1{
+	color: blue;
+}
+
+.pt2{
+	color: red;
+}
+
+.pt3{
+	color: orange;
+}
+
+.pt4{
+	color: green;
+}
+
+#title {
+	
+	text-align: left;
+}
