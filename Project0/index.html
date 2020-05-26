@@ -2,58 +2,78 @@
 <html>
     <head>
         <title>Andy Chen</title>
-
-        <link href="C:\Users\Andy\Desktop\project0\andy.css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-
+        <link href="C:\Users\Andy\CS50-Web-Programming\project0\andy.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
+    <meta name ="viewport" content="width=device-width", initial-scale=1.0">
+    <style>
+        @media screen and (max-width:1000px) {
+        body {
+            background-color: tan;
+            }
+        }
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            width = 1000px;
+        }
+    </style>
     <body>
-        <div class = "container">
-        <div class = "pt1">
-            <h1 id = "title" > Andy's Webpage </h1>
-
-       	    <h3 id = "title" > Andy's Hobbies </h3>
-            <ol>
-
-         	    <li>Playing Guitar</li>
-         	    <li>Learning to code</li>
-                <li>Playing chess</li>
-            </ol>
-        </div>
-        <div class = "container">
-        <div class = "pt2">
-           <table>
-              	<tr>
-            		<th>Name</th>
-        	       	<th>Age</th>
-            		<th>Favourite Colour</th>
-            	</tr>
-            	<tr>
-            		<td>Jenny</td>
-        	       	<td>20</td>
-        	       	<td>Blue</td>
-            	</tr>
-            	<tr>
-            		<td>Emily</td>
-            		<td>45</td>
-            		<td>Pink</td>
-            	<tr/>
-
-            </table>
-        </div>
-        <div class = "container">
-        <div class = "pt3">
-            <h3 class = "title">Favourite Animal: </h3>
-
-            <img src=https://i.pinimg.com/originals/5e/af/07/5eaf077a091f4866f33f91e1b45d421e.jpg width = 25%>
-        </div>
-        <div class = "pt4">
-    	   <h3 id= "title" > Contact me here: </h3>
-    	   <ul>
-    		  <li><a href ="https://github.com/AndyKChen">Github</li>
-    		  <li><a href ="https://www.linkedin.com/in/andy-chen-5b5b65163/">LinkedIn</li>
-    		  <li><a href ="https://www.instagram.com/_andy.k/">Instagram</li>
-    	   </ul>
+        <h1 id = "title" > Andy's Webpage </h1>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "pt1">
+                    <div class = "col">
+                        <h3 id = "title" > Andy's Hobbies </h3>
+                        <ol>
+                            <li>Playing Guitar</li>
+                            <li>Learning to code</li>
+                            <li>Playing chess</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class = "pt2">
+                    <div class = "col">
+                        <h3 id = "title" > Andy's Family </h3>
+                        <table>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Favourite Colour</th>
+                            </tr>
+                            <tr>
+                                <td>Jenny</td>
+                                <td>20</td>
+                                <td>Blue</td>
+                            </tr>
+                            <tr>
+                                <td>Emily</td>
+                                <td>45</td>
+                                <td>Pink</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class = "pt3">
+                <div class ="row">
+                    <div class = "col">
+                        <h3> Favourite Animal: </h3>
+                        <img src=https://i.pinimg.com/originals/5e/af/07/5eaf077a091f4866f33f91e1b45d421e.jpg width = 25%>
+                    </div>
+                </div>
+                <div class = "pt4">
+                    <div class = "col">
+                        <h3 id= "title" > Contact me here: </h3>
+                        <ul>
+                            <li><a href ="https://github.com/AndyKChen">Github</li>
+                            <li><a href ="https://www.linkedin.com/in/andy-chen-5b5b65163/">LinkedIn</li>
+                            <li><a href ="https://www.instagram.com/_andy.k/">Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
